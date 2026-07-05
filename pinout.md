@@ -2,7 +2,7 @@
 
 ## Components
 - Arduino Nano (CH340)
-- E01-2G4M27D (nRF24L01+ PA+LNA) via adapter board
+- E01-2G4M27D (nRF24L01+ PA+LNA) via adapter board on the 0129 channel 
 - DS18B20 Waterproof Temperature Sensor
 - Common Cathode RGB LED (for status)
 
