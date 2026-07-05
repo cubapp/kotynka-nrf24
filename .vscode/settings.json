@@ -1,0 +1,6 @@
+{
+    "git.terminalAuthentication": false,
+    "git.useIntegratedTerminal": true,
+    "git.allowForcePush": true,
+    "git.autofetch": true
+}
