@@ -39,7 +39,7 @@ nrf24-temperature-monitor/
 ├── README.md
 ├── LICENSE (MIT)
 └── hardware/
-    ├── wiring_sender.png     (add your photos)
+    ├── wiring_sender.png     
     └── wiring_receiver.png
 ```
 
