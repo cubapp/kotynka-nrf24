@@ -1,0 +1,13 @@
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/arduino.json
+!.vscode/tasks.json
+
+# Arduino
+**/.vsarduino.json
+**/*.cache
+**/*.log
+
+# macOS
+.DS_Store
