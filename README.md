@@ -28,6 +28,21 @@ Wireless DS18B20 temperature sender (every 60s) using E01-2G4M27D + Arduino Nano
 2. Flash `sender.ino` and `receiver.ino`
 3. Connect receiver via USB to Raspberry Pi (`/dev/ttyUSB0`)
 
+
+## Folder Structure:
+```
+nrf24-temperature-monitor/
+├── sender/
+│   └── sender.ino
+├── receiver/
+│   └── receiver.ino
+├── README.md
+├── LICENSE (MIT)
+└── hardware/
+    ├── wiring_sender.png     (add your photos)
+    └── wiring_receiver.png
+```
+
 ## Raspberry Pi Python Script
 
 ```python
