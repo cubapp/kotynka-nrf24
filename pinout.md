@@ -10,6 +10,8 @@
 
 ## Sender Wiring
 
+## Sender (Updated Wiring)
+
 ```ascii
 Arduino Nano
 +-----------------------------------+
@@ -17,16 +19,16 @@ Arduino Nano
 |  5V  ─────── VCC (Red)            |
 |  GND ─────── GND (Black)          |
 |                                   |
-|  D9  ─────── CE                   | ← NRF24 Adapter
-|  D10 ─────── CSN                  |
+|  D5  ─────── CE                   | ← NRF24 Adapter
+|  D6  ─────── CSN                  |
 |  D11 ─────── MOSI                 |
 |  D12 ─────── MISO                 |
 |  D13 ─────── SCK                  |
 |  3.3V/GND ── VCC/GND              |
 |                                   |
-|  D5  ─────── Red   (220Ω)         | ← RGB LED (Common Cathode)
-|  D6  ─────── Green (220Ω)         |
-|  D7  ─────── Blue  (220Ω)         |
+|  D7  ─────── Red   (220Ω)         | ← RGB LED (Common Cathode)
+|  D8  ─────── Green (220Ω)         |
+|  D9  ─────── Blue  (220Ω)         |
 |  GND ─────── Common Cathode       |
 +-----------------------------------+
 ```
